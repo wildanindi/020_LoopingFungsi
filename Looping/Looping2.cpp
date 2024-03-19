@@ -8,7 +8,7 @@ int main (){
 
     bilangan = rand() % 10; // batasan dari angka yang di acak
 
-    while (bilangan > 4)
+    while (bilangan > 4)    // prosedur perulangan yang menggunakan while, artinya perulangan tidak akan berhenti sampai dia menemukan angka yang tidak lebih dari 4
     {
         cout << "Bilangan lebih dari 4" << endl;
         bilangan = rand() % 10;
