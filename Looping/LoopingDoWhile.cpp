@@ -9,5 +9,11 @@ int main()
 
     bilangan = rand() % 10;
 
-    
+    cout << "Bilangan Awal = " << bilangan << endl;
+    do
+    {
+        cout << "Perulangan Do....While" << endl;
+        bilangan = rand() % 10;
+        cout << "Bilangan = " << bilangan << endl;
+    } while (bilangan > 5);
 }
