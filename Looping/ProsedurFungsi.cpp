@@ -2,7 +2,7 @@
 using namespace std;
 
 int nTelor, nMie, nAir;
-int htelor = 2000, hMie = 2800, hAir = 3000;
+int hTelor = 2000, hMie = 2800, hAir = 3000;
 string nama;
 
 void input ()
@@ -16,3 +16,9 @@ void input ()
     cout << "Masukkan Jumlah Air Mineral = ";
     cin >> nAir;
 }
+
+int hitungHarga()
+{
+    return (nTelor * hTelor) + (nMie * hMie) + (nAir * hAir);
+}
+
