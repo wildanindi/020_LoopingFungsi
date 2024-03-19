@@ -22,3 +22,11 @@ int hitungHarga()
     return (nTelor * hTelor) + (nMie * hMie) + (nAir * hAir);
 }
 
+void display()
+{
+    cout << "Nama = " << nama << endl;
+    cout << "Jumlah Telor = " << nTelor << endl;
+    cout << "Jumlah Mie = " << nMie << endl;
+    cout << "Jumlah Air = " << nAir << endl;
+    cout << "Total Harga Rp. = " << hitungHarga() << endl;
+}
