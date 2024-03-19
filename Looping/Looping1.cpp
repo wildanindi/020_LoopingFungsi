@@ -5,8 +5,8 @@ int main(){
 
 
 
-    int i;
-    string nama[5];
+    int i;  // variabel
+    string nama[5]; // variabel
 
     for (i = 150; i > 100; i-=10)
     {
