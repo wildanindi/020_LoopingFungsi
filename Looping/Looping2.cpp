@@ -4,9 +4,9 @@ using namespace std;
 int main (){
     int bilangan;
 
-    srand(time(0));
+    srand(time(0)); // untuk mengacak angka dari 0
 
-    bilangan = rand() % 10;
+    bilangan = rand() % 10; // batasan dari angka yang di acak
 
     while (bilangan > 4)
     {
